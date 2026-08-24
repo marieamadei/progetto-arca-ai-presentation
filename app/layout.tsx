@@ -4,6 +4,14 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Progetto Arca AI — Dati che spiegano. Intelligenza che orienta.",
   description: "La nuova esperienza Streetbeat per trasformare i dati di fundraising di Progetto Arca in comprensione, evidenza e azione.",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
   icons: {
     icon: "/assets/arca-logo.png",
     shortcut: "/assets/arca-logo.png",
