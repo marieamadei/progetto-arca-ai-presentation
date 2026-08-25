@@ -45,13 +45,15 @@ img { display: block; max-width: 100%; }
 .hero { position: relative; min-height: 100svh; overflow: hidden; background: var(--navy); color: white; }
 .hero-image { position: absolute; inset: 0 0 0 46%; background-image: url('/assets/arca-portrait.png'); background-size: cover; background-position: center; filter: grayscale(1) contrast(1.04); }
 .hero-wash { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(8,47,80,1) 0%, rgba(8,47,80,.98) 41%, rgba(8,47,80,.63) 62%, rgba(8,47,80,.1) 100%); }
-.hero-content { position: relative; z-index: 2; width: min(760px, 82vw); padding: 21vh 0 14vh 7vw; }
+.hero-content { position: relative; z-index: 2; width: min(850px, 82vw); padding: 17vh 0 14vh 7vw; }
 .eyebrow { margin: 0 0 22px; color: var(--blue); font-size: 13px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .eyebrow.light { color: #7bdfff; }
-.hero h1 { margin: 0; max-width: 800px; font-size: clamp(52px, 7.4vw, 104px); line-height: .91; letter-spacing: -.065em; }
-.hero h1 span { color: var(--green); }
-.hero h1 em { display: inline-block; margin-top: .28em; color: white; font-size: .46em; font-style: normal; line-height: 1.08; letter-spacing: -.035em; }
-.hero-copy { max-width: 590px; margin: 34px 0 0; color: #d5e5ef; font-size: clamp(19px, 2vw, 27px); line-height: 1.42; }
+.hero h1 { margin: 0; max-width: 850px; letter-spacing: -.055em; }
+.hero h1 span { display: block; }
+.hero-title-main, .hero-title-ai { font-size: clamp(48px, 4.8vw, 76px); line-height: .98; }
+.hero h1 .hero-title-ai { margin-top: .08em; color: var(--green); }
+.hero h1 .hero-title-mission { margin-top: .55em; color: white; font-size: clamp(28px, 2.6vw, 42px); font-weight: 600; line-height: 1.08; letter-spacing: -.035em; }
+.hero-copy { max-width: 620px; margin: 30px 0 0; color: #d5e5ef; font-size: clamp(18px, 1.55vw, 24px); line-height: 1.42; }
 .hero-identity { max-width: 590px; margin: 18px 0 0; padding-left: 14px; border-left: 3px solid var(--green); color: #a9c5d6; font-size: 13px; line-height: 1.45; }
 .hero-identity strong { color: var(--green); }
 .hero-actions { display: flex; gap: 14px; margin-top: 42px; flex-wrap: wrap; }
@@ -280,6 +282,8 @@ footer p { margin: 0; color: #9db7c9; font-size: 12px; }
   .hero-image { inset: 0; opacity: .36; background-position: 58% center; }
   .hero-wash { background: rgba(8,47,80,.78); }
   .hero-copy { font-size: 18px; }
+  .hero-title-main, .hero-title-ai { font-size: clamp(43px, 12vw, 58px); }
+  .hero h1 .hero-title-mission { font-size: clamp(27px, 7.5vw, 36px); }
   .hero-foot { left: 22px; right: 22px; }
   .section { padding: 92px 22px; }
   .section-number { display: none; }
