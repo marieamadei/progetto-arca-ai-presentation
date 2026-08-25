@@ -40,9 +40,10 @@ export default function Home() {
           <p className="eyebrow light">Progetto Arca AI</p>
           <h1>Dati che spiegano.<br /><span>Intelligenza che orienta.</span></h1>
           <p className="hero-copy">
-            Una nuova esperienza per trasformare i dati di raccolta fondi in comprensione,
-            evidenza e prossima decisione.
+            Con Luma, la collega AI di Progetto Arca, i dati di raccolta fondi diventano
+            comprensione, evidenza e prossima decisione.
           </p>
+          <p className="hero-identity"><strong>Luma</strong> è la nuova identità dell’assistente AI finora presentato come Jarvis.</p>
           <div className="hero-actions">
             <a className="button primary" href="#idea">Scopri il percorso</a>
             <a className="button ghost" href="https://progettoarca.streetbeat.com/login" target="_blank" rel="noreferrer">
@@ -201,14 +202,41 @@ export default function Home() {
             <span className="step-label">L’approfondimento di Luma</span>
             <strong>86,9%</strong>
             <p>del calo di Altro/trasversale è spiegato dalla variazione dei contributi sopra €10.000.</p>
+            <b className="finding-total">54,8% del calo One-Off complessivo</b>
             <small>Soglia diagnostica ad hoc, esplicitamente dichiarata.</small>
           </article>
+        </div>
+        <div className="denominator-bridge" aria-label="Doppio denominatore dell’analisi">
+          <div>
+            <span>Calo One-Off complessivo</span>
+            <strong>−€395.307</strong>
+            <small>100% del calo osservato</small>
+          </div>
+          <div>
+            <span>Altro / trasversale</span>
+            <strong>−€249.302</strong>
+            <small>63,1% del calo complessivo</small>
+          </div>
+          <div className="denominator-focus">
+            <span>Contributi sopra €10.000</span>
+            <strong>−€216.669</strong>
+            <small>86,9% di Altro/trasversale · 54,8% del totale</small>
+          </div>
         </div>
         <div className="evidence-strip">
           <div><span>2025</span><strong>7 donazioni</strong><p>5 donatori · €416.669</p></div>
           <div className="evidence-line"><span>−€216.669</span></div>
           <div><span>2026</span><strong>1 donazione</strong><p>€200.000</p></div>
           <div className="decision-box"><span>Decisione</span><strong>Prima stewardship e timing dei grandi contributi.</strong><p>Non attribuire ancora il calo alla performance del canale.</p></div>
+        </div>
+        <div className="analysis-limit">
+          <span>06 · Limite dell’analisi</span>
+          <p>
+            La concentrazione è calcolata su una numerosità ridotta: 7 donazioni di 5 donatori
+            nel 2025 e una donazione nel 2026. Non sappiamo ancora se i grandi donatori 2025
+            non presenti nella finestra 2026 siano persi, in ritardo o semplicemente fuori dal
+            periodo osservato.
+          </p>
         </div>
         <p className="case-footnote">Le donazioni eccezionali risultano associate ad attività di Cultivation One2one.</p>
       </section>
@@ -217,13 +245,18 @@ export default function Home() {
         <div className="section-number">06</div>
         <div className="opportunity-photo"><img src="/assets/arca-market.png" alt="Volontaria di Progetto Arca in un Market Solidale" /></div>
         <div className="opportunity-copy">
-          <p className="eyebrow">Non solo rischio</p>
-          <h2>L’AI individua anche le opportunità da sviluppare.</h2>
+          <p className="eyebrow">Un esempio operativo</p>
+          <h2>Dal segnale alla relazione da qualificare.</h2>
           <div className="hvd-card">
-            <span className="hvd-badge">High Value Donor · segnale</span>
+            <span className="hvd-badge">High Value Donor · drill-down</span>
             <div className="hvd-number"><strong>2</strong><span>candidati Digital<br />in Ultima chiamata</span></div>
-            <div className="hvd-facts"><span><b>€3.500</b> valore storico</span><span><b>2/2</b> contattabili</span></div>
+            <div className="hvd-facts"><span><b>€3.500</b> valore storico osservato</span><span><b>2/2</b> contattabili</span></div>
             <p>Luma qualifica il segnale. Una persona decide se e come attivare la relazione.</p>
+            <small>Il valore storico non è una stima del potenziale futuro.</small>
+          </div>
+          <div className="portfolio-opportunity">
+            <span>Lettura C-level</span>
+            <p>Le opportunità vanno aggregate sull’intero perimetro: migrazioni RFM verso l’alto, candidati HVD, valore storico associato e potenziale ancora da qualificare.</p>
           </div>
           <p className="human-note"><i aria-hidden="true" /> Nessun contatto autonomo con il donatore.</p>
         </div>
