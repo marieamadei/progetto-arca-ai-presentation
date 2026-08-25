@@ -123,6 +123,25 @@ img { display: block; max-width: 100%; }
 .worked-before i { width: 13px; height: 13px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 7px rgba(36,215,147,.17); }
 .worked-before span { font-size: 14px; line-height: 1.35; }
 
+.channels { background: var(--mist); }
+.channels-heading { max-width: 1040px; }
+.channels-heading h2 { max-width: 900px; }
+.channel-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; align-items: start; margin-top: 64px; }
+.channel-card { padding: 18px 18px 28px; border: 1px solid var(--line); border-radius: 26px; background: white; box-shadow: 0 18px 45px rgba(8,47,80,.08); }
+.channel-card.featured { margin-top: 38px; border-color: #86bce9; box-shadow: 0 26px 64px rgba(0,87,166,.17); }
+.channel-card.whatsapp { margin-top: 76px; border-color: #9bd9c2; }
+.channel-label { display: flex; align-items: center; gap: 10px; min-height: 42px; padding: 0 5px; color: var(--blue); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.channel-label span { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--mist); color: var(--cyan); font-weight: 800; }
+.channel-label strong { font-size: 11px; }
+.phone-frame { aspect-ratio: 9 / 16; overflow: hidden; border: 7px solid #e7eef3; border-radius: 24px; background: #f5f7f8; }
+.channel-card.featured .phone-frame { border-color: #d9ebfa; }
+.channel-card.whatsapp .phone-frame { border-color: #d9f2e9; }
+.phone-frame img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.channel-card h3 { margin: 25px 5px 10px; font-size: 25px; line-height: 1.1; letter-spacing: -.035em; }
+.channel-card > p { margin: 0 5px; color: var(--muted); font-size: 15px; line-height: 1.5; }
+.channel-path { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 58px; padding: 24px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--blue); font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; flex-wrap: wrap; }
+.channel-path b { color: var(--green); font-size: 18px; }
+
 .case-study { background: white; }
 .case-heading { max-width: 1060px; }
 .case-flow { display: grid; grid-template-columns: 1fr 46px 1fr 46px 1fr; align-items: stretch; gap: 14px; margin-top: 64px; }
@@ -217,6 +236,9 @@ footer p { margin: 0; color: #9db7c9; font-size: 12px; }
   .hero-image { left: 30%; opacity: .64; }
   .hero-wash { background: linear-gradient(90deg, rgba(8,47,80,.99), rgba(8,47,80,.84) 75%, rgba(8,47,80,.55)); }
   .question-grid, .policy-grid, .contract-grid { grid-template-columns: repeat(2, 1fr); }
+  .channel-gallery { grid-template-columns: repeat(2, 1fr); }
+  .channel-card.featured, .channel-card.whatsapp { margin-top: 0; }
+  .channel-card.whatsapp { grid-column: 1 / -1; width: calc(50% - 11px); justify-self: center; }
   .foundation, .proactive, .opportunity { grid-template-columns: 1fr; }
   .total-card { justify-self: start; }
   .proactive-visual { margin-top: 30px; }
@@ -243,6 +265,9 @@ footer p { margin: 0; color: #9db7c9; font-size: 12px; }
   .section { padding: 92px 22px; }
   .section-number { display: none; }
   .question-grid, .policy-grid, .contract-grid, .role-grid { grid-template-columns: 1fr; }
+  .channel-gallery { grid-template-columns: 1fr; }
+  .channel-card.whatsapp { grid-column: auto; width: auto; }
+  .channel-path { justify-content: flex-start; }
   .question-grid article:nth-child(2) { transform: none; }
   .foundation { gap: 28px; }
   .total-card { width: 100%; }

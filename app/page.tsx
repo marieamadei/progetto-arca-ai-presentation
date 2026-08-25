@@ -143,6 +143,40 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="channels section" id="canali">
+        <div className="channels-heading">
+          <p className="eyebrow">Dalla piattaforma ai canali di lavoro</p>
+          <h2>Luma arriva dove il lavoro sta già accadendo.</h2>
+          <p className="lede">
+            Si presenta e impara a conoscere il ruolo via email, porta briefing, alert e
+            Next Best Action senza aspettare un accesso, e continua il dialogo su WhatsApp.
+          </p>
+        </div>
+        <div className="channel-gallery" aria-label="Luma via email e WhatsApp">
+          <article className="channel-card">
+            <div className="channel-label"><span>01</span><strong>Email · onboarding</strong></div>
+            <div className="phone-frame"><img src="/assets/luma-email-welcome.png" alt="Email di benvenuto inviata da Luma" /></div>
+            <h3>Conosce la persona.</h3>
+            <p>Ruolo, responsabilità, priorità e preferenze diventano il contesto della collaborazione.</p>
+          </article>
+          <article className="channel-card featured">
+            <div className="channel-label"><span>02</span><strong>Email · alert proattivo</strong></div>
+            <div className="phone-frame"><img src="/assets/luma-email-alert.png" alt="Alert proattivo One-Off inviato da Luma via email" /></div>
+            <h3>Porta ciò che merita attenzione.</h3>
+            <p>Un finding già interpretato, con confronto, perimetro ed evidenze da approfondire.</p>
+          </article>
+          <article className="channel-card whatsapp">
+            <div className="channel-label"><span>03</span><strong>WhatsApp · conversazione</strong></div>
+            <div className="phone-frame"><img src="/assets/luma-whatsapp.png" alt="Approfondimento di Luma in una conversazione WhatsApp" /></div>
+            <h3>Approfondisce insieme a te.</h3>
+            <p>La domanda critica diventa un’analisi ulteriore, accessibile anche lontano dalla scrivania.</p>
+          </article>
+        </div>
+        <div className="channel-path" aria-label="Percorso multicanale di Luma">
+          <span>Onboarding</span><b>→</b><span>Alert e NBA</span><b>→</b><span>Dialogo</span><b>→</b><span>Evidenza in piattaforma</span>
+        </div>
+      </section>
+
       <section className="case-study section" id="evidenza">
         <div className="section-number">05</div>
         <div className="case-heading">
