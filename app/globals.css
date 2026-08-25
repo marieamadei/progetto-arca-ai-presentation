@@ -50,6 +50,7 @@ img { display: block; max-width: 100%; }
 .eyebrow.light { color: #7bdfff; }
 .hero h1 { margin: 0; max-width: 800px; font-size: clamp(52px, 7.4vw, 104px); line-height: .91; letter-spacing: -.065em; }
 .hero h1 span { color: var(--green); }
+.hero h1 em { display: inline-block; margin-top: .28em; color: white; font-size: .46em; font-style: normal; line-height: 1.08; letter-spacing: -.035em; }
 .hero-copy { max-width: 590px; margin: 34px 0 0; color: #d5e5ef; font-size: clamp(19px, 2vw, 27px); line-height: 1.42; }
 .hero-identity { max-width: 590px; margin: 18px 0 0; padding-left: 14px; border-left: 3px solid var(--green); color: #a9c5d6; font-size: 13px; line-height: 1.45; }
 .hero-identity strong { color: var(--green); }

@@ -38,7 +38,11 @@ export default function Home() {
         <div className="hero-wash" />
         <div className="hero-content">
           <p className="eyebrow light">Progetto Arca AI</p>
-          <h1>Dati che spiegano.<br /><span>Intelligenza che orienta.</span></h1>
+          <h1>
+            Dati che spiegano.<br />
+            <span>Intelligenza che orienta.</span><br />
+            <em>Per fare di più, meglio.</em>
+          </h1>
           <p className="hero-copy">
             Con Luma, la collega AI di Progetto Arca, i dati di raccolta fondi diventano
             comprensione, evidenza e prossima decisione.

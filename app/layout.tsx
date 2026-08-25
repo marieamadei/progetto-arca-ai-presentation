@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Progetto Arca AI — Dati che spiegano. Intelligenza che orienta.",
+  title: "Progetto Arca AI — Dati che spiegano. Intelligenza che orienta. Per fare di più, meglio.",
   description: "La nuova esperienza Streetbeat per trasformare i dati di fundraising di Progetto Arca in comprensione, evidenza e azione.",
   robots: {
     index: false,
