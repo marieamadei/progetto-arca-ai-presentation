@@ -177,6 +177,7 @@ export default function Home() {
             <p>La domanda critica diventa un’analisi ulteriore, accessibile anche lontano dalla scrivania.</p>
           </article>
         </div>
+        <p className="data-note">Schermate del test del 24 agosto. Il caso seguente riprende il finding aggiornato del 25 agosto, sul perimetro One-Off altri canali e con soglia di almeno €5.000.</p>
         <div className="channel-path" aria-label="Percorso multicanale di Luma">
           <span>Onboarding</span><b>→</b><span>Alert e NBA</span><b>→</b><span>Dialogo</span><b>→</b><span>Evidenza in piattaforma</span>
         </div>
@@ -186,15 +187,15 @@ export default function Home() {
         <div className="section-number">05</div>
         <div className="case-heading">
           <p className="eyebrow">Un caso reale</p>
-          <h2>Un calo di €395.307.<br />Una decisione che cambia con l’evidenza.</h2>
-          <p className="lede">Gennaio–maggio 2026 rispetto allo stesso periodo 2025.</p>
+          <h2>Un calo di €356.089.<br />Una decisione che cambia con l’evidenza.</h2>
+          <p className="lede">One-Off altri canali · gennaio–maggio 2026 rispetto allo stesso periodo 2025. I donatori della policy One-Off digitali sono esclusi da questo caso.</p>
         </div>
         <div className="case-flow">
           <article className="case-step observed">
             <span className="step-label">Fatto osservato</span>
-            <strong>−47,9%</strong>
-            <p>Contrazione complessiva delle due policy One-Off individuali.</p>
-            <div className="mini-split"><span>One-Off <b>−€356.089</b></span><span>Digital <b>−€39.218</b></span></div>
+            <strong>−48,6%</strong>
+            <p>Contrazione degli incassi di One-Off altri canali.</p>
+            <div className="mini-split"><span>2025 <b>€732.591</b></span><span>2026 <b>€376.501</b></span></div>
           </article>
           <div className="flow-arrow" aria-hidden="true">→</div>
           <article className="case-step question">
@@ -204,45 +205,45 @@ export default function Home() {
           <div className="flow-arrow" aria-hidden="true">→</div>
           <article className="case-step finding">
             <span className="step-label">L’approfondimento di Luma</span>
-            <strong>86,9%</strong>
-            <p>del calo di Altro/trasversale è spiegato dalla variazione dei contributi sopra €10.000.</p>
-            <b className="finding-total">54,8% del calo One-Off complessivo</b>
-            <small>Soglia diagnostica ad hoc, esplicitamente dichiarata.</small>
+            <strong>67,9%</strong>
+            <p>del calo di One-Off altri canali è spiegato dalla variazione dei contributi di almeno €5.000 in Altro / trasversale.</p>
+            <b className="finding-total">96,9% del calo di Altro / trasversale</b>
+            <small>Soglia diagnostica del finding, non una soglia di segmentazione HVD.</small>
           </article>
         </div>
         <div className="denominator-bridge" aria-label="Doppio denominatore dell’analisi">
           <div>
-            <span>Calo One-Off complessivo</span>
-            <strong>−€395.307</strong>
-            <small>100% del calo osservato</small>
+            <span>Calo One-Off altri canali</span>
+            <strong>−€356.089</strong>
+            <small>100% del calo nel perimetro del caso</small>
           </div>
           <div>
             <span>Altro / trasversale</span>
             <strong>−€249.302</strong>
-            <small>63,1% del calo complessivo</small>
+            <small>70,0% del calo di One-Off altri canali</small>
           </div>
           <div className="denominator-focus">
-            <span>Contributi sopra €10.000</span>
-            <strong>−€216.669</strong>
-            <small>86,9% di Altro/trasversale · 54,8% del totale</small>
+            <span>Contributi ≥€5.000 in Altro / trasversale</span>
+            <strong>−€241.669</strong>
+            <small>96,9% del calo di Altro / trasversale · 67,9% del calo di One-Off altri canali</small>
           </div>
         </div>
         <div className="evidence-strip">
-          <div><span>2025</span><strong>7 donazioni</strong><p>5 donatori · €416.669</p></div>
-          <div className="evidence-line"><span>−€216.669</span></div>
-          <div><span>2026</span><strong>1 donazione</strong><p>€200.000</p></div>
+          <div><span>2025 · contributi ≥€5.000 in Altro</span><strong>14 donazioni</strong><p>11 donatori · €461.669</p></div>
+          <div className="evidence-line"><span>−€241.669</span></div>
+          <div><span>2026 · stesso perimetro</span><strong>4 donazioni</strong><p>3 donatori · €220.000</p></div>
           <div className="decision-box"><span>Decisione</span><strong>Prima stewardship e timing dei grandi contributi.</strong><p>Non attribuire ancora il calo alla performance del canale.</p></div>
         </div>
         <div className="analysis-limit">
           <span>06 · Limite dell’analisi</span>
           <p>
-            La concentrazione è calcolata su una numerosità ridotta: 7 donazioni di 5 donatori
-            nel 2025 e una donazione nel 2026. Non sappiamo ancora se i grandi donatori 2025
+            La concentrazione è calcolata su una numerosità ridotta: 14 donazioni di 11 donatori
+            nel 2025 e 4 donazioni di 3 donatori nel 2026. Non sappiamo ancora se i grandi donatori 2025
             non presenti nella finestra 2026 siano persi, in ritardo o semplicemente fuori dal
-            periodo osservato.
+            periodo osservato. Per distinguerlo servono calendario atteso e stato delle relazioni.
           </p>
         </div>
-        <p className="case-footnote">Le donazioni eccezionali risultano associate ad attività di Cultivation One2one.</p>
+        <p className="case-footnote">I quattro contributi 2026 di questo approfondimento sono classificati Cultivation One2one. Dati al 31 maggio 2026 · finding aggiornato il 25 agosto 2026.</p>
       </section>
 
       <section className="opportunity section sand">
